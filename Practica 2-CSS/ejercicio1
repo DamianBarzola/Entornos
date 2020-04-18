@@ -1,0 +1,45 @@
+1- CSS son las siglas de Cascade Style Sheet que traducido significa hojas de estilo en
+cascada.
+Las hojas de estilo es una tecnología que nos permite controlar la apariencia de una
+página web. En un principio, los sitios web se concentraban más en su contenido que
+en su presentación.
+
+2-CSS funciona a base de reglas, es decir, declaraciones sobre el estilo de uno o más
+elementos. Las hojas de estilo están compuestas por una o más de esas reglas aplicadas 
+a un documento HTML o XML. La regla tiene dos partes: un selector y la declaración.
+A su vez la declaración está compuesta por una propiedad y el valor que
+se le asigne.
+El selector funciona como enlace entre el documento y el estilo, especificando los
+elementos que se van a ver afectados por esa declaración.
+La declaración es la parte de la regla que establece cuál será el efecto.
+
+3-Podemos asociar las reglas de estilo a las marcas HTML de tres maneras:
+• directamente a la marca,
+• en el head de la página
+• o agrupar las reglas de estilo en un archivo independiente con extensión *.css
+
+4- Los selectores pueden aparecer individualmente o agrupados, separándolos con comas.
+individualmente:
+h1, h2, h3 { color: red; }
+agrupados:
+h1 {color: red;}
+h2 {color: red;}
+h3 {color: red;}
+
+5-Una pseudoclase CSS es una palabra clave que se añade a los selectores y que especifica un estado especial del elemento seleccionado.
+ :link se aplica a todos los enlaces que todavía no han sido visitados por el usuario.
+ :visited se aplica a todos los enlaces que han sido visitados al menos una vez por el usuario.
+ :hover, se activa cuando el usuario pasa el ratón o cualquier otro elemento apuntador por encima de un elemento.
+ :active, se activa cuando el usuario activa un elemento, por ejemplo cuando pulsa con el ratón sobre un elemento. 
+ :focus, se activa cuando el elemento tiene el foco del navegador, es decir, cuando el elemento está seleccionado. 
+ :lang se emplea para seleccionar elementos en función de su idioma.
+
+ 6-La herencia permite declarar propiedades en elementos de nivel alto y que estas propiedades se transmitan a todos los elementos descendientes. 
+ Sólo algunas propiedades se heredan por defecto, pero la herencia puede forzarse mediante la palabra clave inherit.
+
+ 7-Cascada: La cascada soluciona los conflictos cuando varias declaraciones afectan a un elemento determinado. Las declaraciones 
+ importantes anulan a las que no lo son tanto. Entre declaraciones de igual importancia, la especificidad de la regla controla 
+ cuál se aplica. Y, si todas las demás son iguales, el orden de las fuentes supone la distinción definitiva.
+
+
+ 
