@@ -13,13 +13,13 @@ Analizar los siguientes códigos y comparar sus efectos. Explicar:
 
 <body>
 <p class="contenido" style="font-weight: normal;">
-Este es un texto ...............</p>
+Este es un texto ...............</p>                                     parrafo con estilo combinado de p y .contenido( font-size: 14px, font-weight: normal;; font-family: arial,helvetica; color:black;)
 <table>
 <tr>
-<td>Y esta es una tabla.......</td>
+<td>Y esta es una tabla.......</td>                                     luego genera una tabla con la primera celda con letras verdes del estilo *
 </tr>
 <tr>
-<td><a href="http://www.google.com.ar">con un
+<td><a href="http://www.google.com.ar">con un                           y en la segunda celda un link que utiliza los estilos de a y sus pseudo-clases 
 enlace</a></td>
 </tr>
 </table>
@@ -27,7 +27,7 @@ enlace</a></td>
 
 -------------------------------------------
 <body class="contenido">
-<p> Este es un texto................</p>
+<p> Este es un texto................</p>                                 es igual al otro ekemplo pero el primer párrafo usa el estilo de p en lugar del estilo de .contenido
 <table>
 <tr>
 <td>Y esta es una tabla.......</td>
@@ -38,3 +38,4 @@ un enlace</a></td>
 </tr>
 </table>
 </body>
+
