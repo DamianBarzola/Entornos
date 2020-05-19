@@ -10,3 +10,5 @@ echo "El $flor $color \n";
 include 'datos.php';
 echo " El $flor $color";
 ?> 
+la Salida dice que no estan definidas las variables de la linea 2, esto es porque no tiene el include 
+antes de ejecutar el echo y, las variable $flor y %color no tienen un valor asignado 
