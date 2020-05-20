@@ -1,5 +1,5 @@
 //Analizar la siguiente función, y escribir un script para probar su funcionamiento:
-
+<?php
 function comprobar_nombre_usuario($nombre_usuario){
  //compruebo que el tamaño del string sea válido.
  if (strlen($nombre_usuario)<3 || strlen($nombre_usuario)>20){
@@ -17,4 +17,26 @@ _";
  }
  echo $nombre_usuario . " es válido<br>";
  return true;
-} 
+} ;
+
+$nombre1="A";
+$nombre2="Damian";
+$nombre3="DA%%";
+$nombre4="DAMIAN";
+$nombre5="DaMiaN";
+
+echo "Probamos con el nombre $nombre1 y " ;
+comprobar_nombre_usuario($nombre1);
+
+echo "Probamos con el nombre $nombre2 y " ;
+comprobar_nombre_usuario($nombre2);
+
+echo "Probamos con el nombre $nombre3 y " ;
+comprobar_nombre_usuario($nombre3);
+
+echo "Probamos con el nombre $nombre4 y " ;
+comprobar_nombre_usuario($nombre4);
+echo "Probamos con el nombre $nombre5 y " ;
+comprobar_nombre_usuario($nombre5);
+
+?> 
