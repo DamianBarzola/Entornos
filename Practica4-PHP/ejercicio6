@@ -7,7 +7,7 @@ $a = array( 'color' => 'rojo',
  'nombre' => 'manzana',
  4
  );
-?>
+?>                                                      Si, son distintas formas de declarar un array
 
 <?php
 $a['color'] = 'rojo';
